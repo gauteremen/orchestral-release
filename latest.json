@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "url": "https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-1.0.0-arm64.dmg",
+  "url": "https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-mac-arm64.dmg",
   "notes": "Orchestral 1.0.0 for Mac (Apple Silicon, arm64).",
-  "publishedAt": "2026-05-29T20:45:00.000Z",
-  "file": "Orchestral-1.0.0-arm64.dmg"
+  "publishedAt": "2026-05-29T20:50:00.000Z",
+  "file": "Orchestral-mac-arm64.dmg"
 }

@@ -1,19 +1,15 @@
 # Orchestral — Mac-nedlastinger (offentlig)
 
-## Last ned Orchestral 1.0.0 (Mac, Apple Silicon)
+## Last ned (siste versjon)
 
-**[Orchestral-1.0.0-arm64.dmg](https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-1.0.0-arm64.dmg)** (~130 MB)
+**[Orchestral-mac-arm64.dmg](https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-mac-arm64.dmg)**
 
-Bruk lenken over på nettsiden — **ikke** «Raw» / filvisning i repo-listen (det gir en LFS-pekerfil).
+Samme URL etter hver release — filen overskrives. Versjonsnummer: [latest.json](./latest.json).
 
-Appen sjekker [latest.json](./latest.json) for nye versjoner.
+**Ikke** bruk «Raw» / filklikk i repo-listen (LFS-peker).
 
 ## Etter installasjon
-
-Hvis macOS sier at Orchestral er **«skadet»** etter nedlasting i nettleseren:
 
 ```bash
 xattr -cr /Applications/Orchestral.app
 ```
-
-Åpne appen på nytt fra Programmer.
