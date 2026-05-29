@@ -1,15 +1,20 @@
-# Orchestral — Mac-nedlastinger (offentlig)
+# Orchestral — Mac-nedlastinger
 
-## Last ned (siste versjon)
+## [Last ned Orchestral (Mac, Apple Silicon)](https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-mac-arm64.dmg)
 
-**[Orchestral-mac-arm64.dmg](https://media.githubusercontent.com/media/gauteremen/orchestral-release/main/Orchestral-mac-arm64.dmg)**
+Samme lenke etter hver release (~130 MB).
 
-Samme URL etter hver release — filen overskrives. Versjonsnummer: [latest.json](./latest.json).
+## Viktig: macOS blokkerer første åpning
 
-**Ikke** bruk «Raw» / filklikk i repo-listen (LFS-peker).
+Orchestral er ikke Apple-signert ennå. **Det er ikke en ødelagt fil.**
 
-## Etter installasjon
+1. Åpne DMG → dra **Orchestral** til **Programmer**
+2. **Høyreklikk** Orchestral i Programmer → **Åpne** → **Åpne**  
+   (Ikke vanlig dobbeltklikk første gang.)
+3. Hvis det fortsatt feiler:
 
 ```bash
 xattr -cr /Applications/Orchestral.app
 ```
+
+DMG-en inneholder også `INSTALL-mac.txt` med disse stegene.
